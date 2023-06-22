@@ -1,0 +1,41 @@
+body {
+  background-image:url(img.webp);
+}
+
+.container{
+    text-align: center;
+    padding:auto;
+    height:400px;
+    width: 400px;
+    margin-top: 200px;
+    opacity: 80%;
+    border-style: dotted;
+    border-radius: 10px;
+}
+
+.fill-info{
+    margin-top:19px;   
+}
+
+input{
+    background-color: rgb(128, 128, 128);
+    font-weight: 700;
+    color:black;
+    height:50px;
+    border-radius: 7px;
+}
+
+::placeholder{
+    font-weight:lighter;
+    color:white;
+}
+
+button{
+    margin-top: 25px!important;
+}
+
+button:hover {
+    background-color:black;
+    color:white;
+    transition: 0.7s;
+}
